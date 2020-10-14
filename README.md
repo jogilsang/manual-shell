@@ -1,6 +1,7 @@
 # manual-shell
 
 
+DAY-1
 ```bash
 쉘이란?
 사용자와 커널간에 인터페이스 역활을 하는 프로그램
@@ -44,4 +45,14 @@ echo $PATH
 vi name.sh
 chmod +x name.sh
 ./name.sh
+```
+
+DAY-2
+```
+vi .bashrc
+delcare -F function
+alias day='date;echo;cal'
+unalias day
+
+lynx
 ```
