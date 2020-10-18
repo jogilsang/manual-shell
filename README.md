@@ -1,7 +1,6 @@
 # manual-shell
 
-
-DAY-1
+### 정의
 ```bash
 쉘이란?
 사용자와 커널간에 인터페이스 역활을 하는 프로그램
@@ -21,7 +20,9 @@ DAY-1
 }
 
 시스템 관리작업의 단순화, 자동화
+###
 
+### Hello World
 export 
 
 set | grep -E '[A-C]1'
@@ -47,12 +48,9 @@ chmod +x name.sh
 ./name.sh
 ```
 
-DAY-2
+### 별칭 설정
 ```
 vi .bashrc
-delcare -F function
 alias day='date;echo;cal'
 unalias day
-
-lynx
 ```
