@@ -32,3 +32,7 @@ stty echo : 다시복원시키기
 \033[파라미터m 표시할 문자열 \033[0m
 이스케이스 시퀀스 참조
 man console_codes
+
+010. pv
+sudo apt-get install pv
+Pipe Viewer로 데이터 흐름의 가시화
