@@ -36,3 +36,8 @@ man console_codes
 010. pv
 sudo apt-get install pv
 Pipe Viewer로 데이터 흐름의 가시화
+
+055. 디폴트게이트웨이 ping이 통하는지 확인하기(리눅스)
+표준출력 및 표준에러출력은 /dev/null로 리다이렉션해서 버리기
+route -n은 현재 경로테이블을 호스트명이 아닌 IP주소로 표시합니다.
+셀 특수변수 $?는 종료 스테이터스가 들어있으므로, 해당 값으로 성공,실패확인가능
