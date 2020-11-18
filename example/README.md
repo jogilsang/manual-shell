@@ -80,6 +80,8 @@ b : 앞으로
 f : 파일 끝을 계쏙 읽음. (Wating for data)
 ctrl + c, q
 
+성공 ,39.114.235.247 - - [18/Nov/2020:21:49:12 +0000] "GET / HTTP/1.1" 200 3477 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
+
 
 
 
