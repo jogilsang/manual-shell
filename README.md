@@ -54,3 +54,18 @@ vi .bashrc
 alias day='date;echo;cal'
 unalias day
 ```
+
+### cat << 멀티라인구분자
+```
+cat << __EOF__
+> i
+> am
+> who
+> iam
+> __EOF__
+i
+am
+who
+iam
+
+```

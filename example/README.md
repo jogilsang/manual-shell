@@ -67,6 +67,19 @@ EOT은 End of Text의 줄임말
 인트라넷은 ftp
 인터넷은 scp, sftp
 
+123. 로그 출력을 감시해서 로그에 특정 문자열이 있으면 경고하기
+tail, read
+-f 옵션을 이용하면 변경 전 파일을 계속 읽기 때문에 새로운 application.log에 추가되는걸 검출할수 없음
+-F 옵션을 이용하면, tail 명령어는 정기적으로 해당파일을 다시 열기때문에 로그 로테이션 대응 가능
+
+less
+계속 추가되는 로그파일을 감시
+
+space : 아래
+b : 앞으로
+f : 파일 끝을 계쏙 읽음. (Wating for data)
+ctrl + c, q
+
 
 
 
