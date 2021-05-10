@@ -1,5 +1,10 @@
 # manual-shell
 
+### health check
+```
+curl --write-out %{http_code} --silent --output /dev/null -L ${website}
+```
+
 ### 정의
 ```bash
 쉘이란?
