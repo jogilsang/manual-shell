@@ -1,5 +1,19 @@
 # manual-shell
 
+
+### curl 호출 시, $변수사용하기
+```
+$site_no => (X)
+${site_no} => (X)
+"$site_no" => (X)
+\"$site_no\" => (X)
+"$((site_no))" => (X)
+'"$site_no"' => (O)
+
+Reference :
+https://pythonq.com/so/bash/812964ㄱ
+```
+
 ### curl로 쿠키 저장 및 조회전송
 ```
 쿠키를 파일로 저장
