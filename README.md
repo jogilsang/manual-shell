@@ -1,5 +1,17 @@
 # manual-shell
 
+### curl로 쿠키 저장 및 조회전송
+```
+쿠키를 파일로 저장
+curl -v -I  -c cookiejar.txt https://www.example.com
+
+파일 또는 문자열에서 쿠키 읽기
+curl -v -I  -b cookiejar.txt https://www.example.com
+
+reference :
+https://www.lesstif.com/software-architect/curl-http-get-post-rest-api-14745703.html
+```
+
 ### health check
 ```
 curl --write-out %{http_code} --silent --output /dev/null -L ${website}
