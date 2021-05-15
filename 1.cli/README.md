@@ -22,6 +22,11 @@
 
 ---
 
+## awk 구분자
+```bash
+result = "echo CV_0060_NAVER | awk -F'_' '{print $2}'"
+```
+
 ## curl
 ### curl 호출 시, $변수사용하기
 ```
