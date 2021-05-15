@@ -1,102 +1,15 @@
 # manual-shell
-
-
-### curl 호출 시, $변수사용하기
-```
-$site_no => (X)
-${site_no} => (X)
-"$site_no" => (X)
-\"$site_no\" => (X)
-"$((site_no))" => (X)
-'"$site_no"' => (O)
-
-Reference :
-https://pythonq.com/so/bash/812964ㄱ
-```
-
-### curl로 쿠키 저장 및 조회전송
-```
-쿠키를 파일로 저장
-curl -v -I  -c cookiejar.txt https://www.example.com
-
-파일 또는 문자열에서 쿠키 읽기
-curl -v -I  -b cookiejar.txt https://www.example.com
-
-reference :
-https://www.lesstif.com/software-architect/curl-http-get-post-rest-api-14745703.html
-```
-
-### health check
-```
-curl --write-out %{http_code} --silent --output /dev/null -L ${website}
-```
-
-### 정의
-```bash
-쉘이란?
-사용자와 커널간에 인터페이스 역활을 하는 프로그램
-
-쉘 스크립트란?
-텍스트 또는 프로그램
-리눅스/유닉스 쉘에 의해 실행되도록 설계된 프로그램
-
-인터프리터에 의해 해석되고, 쉘에 의해 실행
+쉘이란? `사용자와 커널간에 인터페이스 역활을 하는 프로그램`
+쉘 스크립트란? `인터프리터에 의해 해석되고, 쉘에 의해 실행`
+쉘 스크립트를 사용하는 이유? `시스템 관리작업의 단순화, 자동화`
 
 #! : 샤뱅,해쉬뱅 /bin/bash, /bin/perl
 #
 # 주석
 
-함수() {
+## POC
+- [1.cli](#)
+- [2.code](#)
+- [3.powershell](#)
 
-}
-
-시스템 관리작업의 단순화, 자동화
-###
-
-### Hello World
-export 
-
-set | grep -E '[A-C]1'
-evn | grep -E '[A-C]1'
-
-echo $$
-ps -f | grep "bash"
-
-echo $$
-ps -f | grep "bash"
-
-a1=3
-a2=3
-a3=3
-set | grep -E 'a[1-3]'
-
-vi .bash_profile
-source ./.bash_profile
-echo $PATH
-
-vi name.sh
-chmod +x name.sh
-./name.sh
-```
-
-### 별칭 설정
-```
-vi .bashrc
-alias day='date;echo;cal'
-unalias day
-```
-
-### cat << 멀티라인구분자
-```
-cat << __EOF__
-> i
-> am
-> who
-> iam
-> __EOF__
-i
-am
-who
-iam
-
-```
+---
