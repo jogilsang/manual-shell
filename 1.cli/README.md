@@ -24,7 +24,7 @@
 
 ## awk 구분자
 ```bash
-result = "echo CV_0060_NAVER | awk -F'_' '{print $2}'"
+result=`echo CV_0060_NAVER | awk -F'_' '{print $1}'`
 ```
 
 ## curl
