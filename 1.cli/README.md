@@ -59,7 +59,7 @@ curl --write-out %{http_code} --silent --output /dev/null -L ${website}
 ```
 
 ### curl 날리기
-curl -s -d "payload={\"text\":\"Hello, World\"}" "URL"
+`curl -s -d "payload={\"text\":\"Hello, World\"}" "URL"`
 
 ---
 
