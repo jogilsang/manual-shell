@@ -9,7 +9,7 @@
     - [curl 호출 시, $변수사용하기](#curl-호출-시,-$변수사용하기)
     - [curl로 쿠키 저장 및 조회전송](#curl로-쿠키-저장-및-조회전송)
     - [curl-health-check](#curl-health-check)
-    - [curl 결과를 jq](#jq)
+- [jq](#jq)
 - awk
 - sed
     - [SED 정의 및 구성요소](#SED-정의-및-구성요소)
@@ -88,7 +88,6 @@ echo $PATH
 vi name.sh
 chmod +x name.sh
 ./name.sh
-```
 
 ### 별칭 설정
 ```
@@ -121,13 +120,11 @@ iam
  systemctl list-units --type service
 
 ### tcpdump
-```
 tcpdump -vvvs 1024 -l -A host www.naver.com
-```
 
 ### jq
 #### 사용
-| jq '.'
+`| jq '.'`
 #### 설치
 ```shell
 sudo yum install epel-release
